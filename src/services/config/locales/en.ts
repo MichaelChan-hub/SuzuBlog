@@ -67,7 +67,7 @@ const en: Translation = {
     },
   },
   aria: {
-    travellings: 'travellings',
+    travellings: 'Contact Me',
     skipToContent: 'Skip to content',
     theme: {
       light: 'Switch to light theme',

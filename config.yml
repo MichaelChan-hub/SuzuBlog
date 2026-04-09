@@ -2,13 +2,13 @@
 # SITE SETTINGS
 # ######################
 # The name of your blog, used in titles and meta tags.
-title: Suzu
+title: 酱油的博客
 # A short description that appears after the main title.
-subTitle: Next.js Blog Template
+subTitle: 记录生活与技术的个人空间
 # A longer description for SEO and meta tags.
-description: 'Suzu is a minimalist blog template with a serene sakura-inspired theme, blending modern design with a touch of traditional Japanese aesthetics.'
+description: '酱油的博客 - 一个以高级蓝色为主题的极简博客，记录技术与生活。'
 # Comma-separated keywords for SEO purposes.
-keywords: 'Suzu, Next.js, markdown blog, Tailwind CSS, blog template, sakura, ZL Asica'
+keywords: '酱油的博客, Next.js, markdown blog, Tailwind CSS, blog template, blue theme'
 author:
   name: ZL Asica # Your name, displayed as the author of the blog.
   link: 'https://www.zla.pub' # Link to your personal website or blog.
@@ -67,7 +67,7 @@ creativeCommons:
 # ######################
 # If you want to join the travellings community, set the following field to true.
 # For more information, visit https://www.travellings.cn/en_US/
-travellings: false
+travellings: true
 
 # ######################
 # FOOTER SETTINGS

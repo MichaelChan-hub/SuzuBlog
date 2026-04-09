@@ -66,7 +66,7 @@ const zh: Translation = {
     },
   },
   aria: {
-    travellings: '开往',
+    travellings: '联系我',
     skipToContent: '跳过导航，直接进入内容',
     theme: {
       light: '切换到浅色主题',

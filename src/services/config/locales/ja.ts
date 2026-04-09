@@ -67,7 +67,7 @@ const ja: Translation = {
     },
   },
   aria: {
-    travellings: '開通の道',
+    travellings: 'お問い合わせ',
     skipToContent: 'コンテンツにスキップ',
     theme: {
       light: 'ライトテーマに切り替え',

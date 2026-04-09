@@ -5,7 +5,7 @@ import type { Config } from '@/schemas'
 import { useTheme } from '@zl-asica/react'
 import { isEmpty } from '@zl-asica/react/utils'
 import { clsx } from 'clsx'
-import { House, Info, Moon, Newspaper, Sun, TrainFront, TvMinimalPlay, UsersRound } from 'lucide-react'
+import { House, Info, Mail, Moon, Newspaper, Sun, TvMinimalPlay, UsersRound } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Fragment } from 'react'
@@ -172,12 +172,11 @@ const HeaderMenu = ({ config, isMobile, className, onClickHandler }: HeaderMenuP
             className="text-hover-primary transition-all-300 group flex h-12 w-12 items-center justify-center rounded-full backdrop-blur-md bg-white/30 dark:bg-black/30 shadow-md hover:cursor-pointer"
             title={translation.aria.travellings}
             aria-label={translation.aria.travellings}
-            href="https://www.travellings.cn/go.html"
-            rel="noopener noreferrer"
-            target="_blank"
+            href="/about#联系我"
+            onClick={onClickHandler}
           >
             <span className="flex h-6 w-6 items-center justify-center transition-all-300 group-hover:scale-120 ">
-              <TrainFront aria-hidden className="h-full w-full" />
+              <Mail aria-hidden className="h-full w-full" />
             </span>
           </Link>
         )}
