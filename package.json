@@ -17,7 +17,7 @@
   "bugs": "https://github.com/ZL-Asica/SuzuBlog/issues",
   "scripts": {
     "dev": "next dev",
-    "build": "pnpm run lint:fix && next build",
+    "build": "pnpm run lint:fix && next build --webpack",
     "start": "next start",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
